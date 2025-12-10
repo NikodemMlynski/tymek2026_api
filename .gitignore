@@ -1,0 +1,90 @@
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+.eggs/
+.build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# =========================
+# POETRY
+# =========================
+.venv/
+poetry.lock  # jeśli NIE chcesz commitować locka (opcjonalnie – zwykle warto commitować!)
+# Jeśli jednak chcesz commitować locka, usuń linię powyżej
+
+# =========================
+# ENV / SECRETS
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# FASTAPI / UVICORN
+# =========================
+logs/
+*.log
+
+# =========================
+# PYTEST / TESTS
+# =========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# MYPY / RUFF / LINT
+# =========================
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / EDITORS
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# SYSTEM
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# DOCKER (opcjonalnie)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# SQLITE / LOCAL DB
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# NODE (jeśli masz frontend w repo)
+# =========================
+node_modules/
+dist/

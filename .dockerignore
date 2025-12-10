@@ -1,0 +1,17 @@
+# .dockerignore
+.git
+.gitignore
+.env
+__pycache__
+*.pyc
+.venv
+venv
+.mypy_cache
+.pytest_cache
+Dockerfile
+README.md
+requirements.txt
+vercel.json
+# Jeśli masz folder api/ jako nadrzędny, odkomentuj poniższe:
+# api/.venv
+# api/__pycache__
